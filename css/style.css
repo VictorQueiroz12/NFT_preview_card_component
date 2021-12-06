@@ -1,3 +1,5 @@
+/* Projeto feito em prol dos meus estudos em HTLM e CSS tirados do site https://www.frontendmentor.io/home*/
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 :root{
@@ -8,6 +10,17 @@
     --text-color : hsl(215, 51%, 70%);
     --border-color : hsl(215, 32%, 27%);
 }
+header{
+    margin-right: 10px; /* asdasjdkashdajskdhajsdhkajdhasdhakjdhakjdhakdhahdk
+    asdasdasdasdasdasdasdadsadsasdad
+    asdadsasdasdasdada
+    asdasddasd
+    asdadsadadasdasdad
+    asdasda
+    asdadsadadada
+    */
+}
+
 
 *{
     margin : 0;
@@ -23,7 +36,6 @@ body{
     background-color : var(--main-bg);
     font-family : 'Outfit', sans-serif;
     color : var(--text-color);
-
     min-height : 100vh;
     display : flex;
     flex-direction : column;
@@ -86,7 +98,7 @@ body{
     border-bottom : 1px solid var(--border-color);
 }
 
-.card__resource--eth{
+.card__--eth{
     color : var(--cyan);
     font-weight : 600;
     display: flex;
